@@ -1,8 +1,22 @@
-import React from 'react'
+import { Container } from 'react-bootstrap'
+import { Routes, Route } from 'react-router-dom'
+import About from './components/About'
+import Navbar from './components/Navbar'
+import Store from './components/Store'
+import Home from './pages/Home'
 
 const App = () => {
   return (
-    <div><h1>hi</h1></div>
+    <>
+    <Navbar />
+    <Container className='mb-4'>
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/store' element={<Store />}/>
+        <Route path='/about' element={<About />}/>
+      </Routes>
+    </Container>
+    </>
   )
 }
 
