@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Audi",
+      "price": 100000.99,
+      "imgUrl": "/src/assets/imgs/audi-r8.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Bmv",
+      "price": 111199,
+      "imgUrl": "/src/assets/imgs/bmw-x6.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Ferrari",
+      "price": 144555.05,
+      "imgUrl": "/src/assets/imgs/ferrari-f50.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Lamborghini",
+      "price": 150000,
+      "imgUrl": "/src/assets/imgs/lamborghini.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Mercedes-Benz",
+      "price": 132000.04,
+      "imgUrl": "/src/assets/imgs/mercedes-benz.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Rolls-Royce",
+      "price": 165000,
+      "imgUrl": "/src/assets/imgs/rolls-royce.jpg"
+    }
+  ]

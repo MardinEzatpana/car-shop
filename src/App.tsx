@@ -1,8 +1,8 @@
 import { Container } from 'react-bootstrap'
 import { Routes, Route } from 'react-router-dom'
-import About from './components/About'
+import About from './pages/About'
 import Navbar from './components/Navbar'
-import Store from './components/Store'
+import Store from './pages/Store'
 import Home from './pages/Home'
 
 const App = () => {
